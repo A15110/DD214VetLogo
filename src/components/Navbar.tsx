@@ -33,7 +33,7 @@ export default function Navbar() {
                   
                 />
             <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-              DD214 Vet Solutions
+              DD214 Vet Solutions 
             </span>
           </div>
 
