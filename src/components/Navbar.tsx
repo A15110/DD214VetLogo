@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import LOGO_URL from './logo.png';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,11 +26,12 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <img
-              src="/logo.png"
-              alt="DD214 Vet Solutions Logo"
-              className="w-8 h-8"
-            />
+          <img 
+                  src={LOGO_URL}
+                  alt="DD214 Vet Solutions"
+                  className="w-12 h-12 text-blue-400" 
+                  
+                />
             <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
               DD214 Vet Solutions
             </span>
